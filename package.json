@@ -1,0 +1,33 @@
+{
+  "name": "vue-speech",
+  "author": "Matteo Gabriele <m.gabriele.dev@gmail.com>",
+  "version": "0.0.0",
+  "description": "Web Speech Api for Vue",
+  "bugs": {
+    "url": "https://github.com/matteogabriele/vue-speech/issues"
+  },
+  "repository": "https://github.com/matteogabriele/vue-speech",
+  "scripts": {
+    "dev": "node ./config/scripts/dev.js",
+    "build": "node ./config/scripts/build.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "main": "./dist/vue-speech.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-blue": "^1.0.0-beta.29",
+    "compression-webpack-plugin": "^0.4.0",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "ora": "^1.2.0",
+    "webpack": "^2.5.0",
+    "webpack-merge": "^4.1.0",
+    "jest": "^20.0.0"
+  },
+  "dependencies": {},
+  "files": [
+    "dist"
+  ]
+}
