@@ -1,7 +1,7 @@
 {
   "name": "vue-speech",
   "author": "Matteo Gabriele <m.gabriele.dev@gmail.com>",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Web Speech Api for Vue",
   "bugs": {
     "url": "https://github.com/matteogabriele/vue-speech/issues"
