@@ -41,6 +41,32 @@ export default {
 </style>
 ```
 
+### Change language
+
+```html
+<vue-speech lang="it-IT" />
+```
+
+### Return speech data
+```html
+<template>
+  <div>
+    <vue-speech @onTranscriptionEnd="onEnd"/>
+  </div>
+</template>
+
+<script>
+export default {
+  methods: {
+    onEnd ({ lastSentence, transcription }) {
+      // `lastSentence` is the last sentence before the pause
+      // `transcription` is the full array of sentences
+    }
+  }
+}
+</script>
+```
+
 # Issues and features requests
 
 Please drop an issue, if you find something that doesn't work, or a feature request at [https://github.com/MatteoGabriele/vue-speech/issues](https://github.com/MatteoGabriele/vue-speech/issues)
