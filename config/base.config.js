@@ -23,6 +23,16 @@ module.exports = {
           presets: ['blue'],
           babelrc: false
         }
+      },
+      {
+        test: /\.vue$/,
+        exclude: /node_modules/,
+        loader: 'vue-loader',
+        options: {
+          loaders: {
+            js: 'babel-loader'
+          }
+        }
       }
     ]
   }
