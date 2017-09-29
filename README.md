@@ -1,13 +1,13 @@
 # vue-speech
 
-A simple component that let you interact with the new Web Speech Recognition Api.
+Interact with the new Web Speech Recognition Api.
 
 > Currently available only in Chrome and Firefox
 
 
 ![alt tag](https://raw.githubusercontent.com/MatteoGabriele/vue-speech/master/example.gif)
 
-### The component obviously needs more features and I am working on them, if you have any requests or ideas, drop me an issue :)
+### The plugin will obviously have more features, if you have any requests or ideas, drop me an issue :)
 
 ## Install
 
